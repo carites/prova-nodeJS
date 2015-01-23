@@ -1,0 +1,17 @@
+{
+  "dev": {
+    "driver": "mysql",
+    "user": "root",
+    "database": "provanode",
+    "password": "root",
+    "port" : 8889,
+    "host" : "localhost",
+    "socket" : "/Applications/MAMP/tmp/mysql/mysql.sock"
+  },
+ 
+  "production": {
+    "driver": "mysql",
+    "user": "root",
+    "database": "myapp"
+  }
+}
