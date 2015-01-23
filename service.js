@@ -50,7 +50,7 @@ router.route('/users')
 	});
 
 });
-router.route('/users/:user_id')
+router.route('/users/:id')
 
 .put(function(req, res) {
 	var password = req.body.password;
